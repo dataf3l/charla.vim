@@ -1,0 +1,218 @@
+
+vim for php users
+=================
+why use vim
+-----------
+	* multiple modes of input
+	* language support
+	* community
+	* open-source
+	* multi-plattform
+	* uganda children
+	* memory consumption
+	
+when *not* to use vim
+---------------------
+	* Java
+	* CSharp
+	* iOS
+	* anything IDE dependant.
+
+vim o gvim?
+-----------
+	* vim
+	* gvim
+
+vim on the path
+---------------
+
+modes
+-----
+	* INSERT
+	* NORMAL
+	* REPLACE
+	* VISUAL
+	* COMMAND
+
+leaving vim
+-----------
+	:q
+	:q!
+
+opening files
+-------------
+	* command line
+	* context menu
+	* drag and drop
+	* :e
+	* :ed
+	* :edi
+	* :edit
+	
+saving files
+------------
+	:sav
+	:write
+
+vim as a task list
+------------------
+how to search
+-------------
+	/
+	?
+	n
+	N
+	#
+	*
+	:vimgrep
+	cc 1
+	cn
+	cp
+	cl
+
+vim as a etl tool
+-----------------
+	** how to replace
+	** :%s/a/b/g
+	** :%s/s/a/c
+	** regular expressions
+	** range replace
+setnu
+-----
+	:linenum
+	linenumG
+
+file explorer
+-------------
+	* new files
+	* new folders
+	* folder navigation (/)
+	* renaming
+diff
+----
+
+movement commands
+-----------------
+
+hjkl, {} L G 100G t, T, f F n w b %
+
+modification commands
+---------------------
+	d, y 
+	dd
+	ddp
+	yy
+
+	<num>op<nov>
+
+modification commands
+global command
+--------------
+	:g/a/y A
+	:g/a/p
+	:g/a/#
+
+quick modifications in normal mode
+----------------------------------
+	* xp
+	* ddp
+
+identation
+----------
+	=%
+	>>
+	<<
+
+modifying the default environment
+---------------------------------
+	wrap
+	nowrap
+	nu
+	colorscheme
+	$VIM/.vimrc
+	$VIM/.gvimrc
+	nobackup
+	noswapfile
+	nowritebackup
+
+syntax highlighting
+-------------------
+	pathogen, syntastic
+	syntax off
+	Errors
+
+autocomplete
+------------
+	ctrl-p, -n
+	you-complete-me
+	C-X, C-F
+
+
+gui modification
+----------------
+	:imenu
+	:imap
+	slash2backslash OK
+	:abbr
+
+history
+-------
+	q:
+	q/
+	set history
+	:marks
+	'0
+
+vim files, vim
+--------------
+	.vim
+	:so
+	:cd
+	:pwd
+	:!
+	:r
+	:!ls
+	:r!ls
+	que es %
+	open %
+
+editing multiple files
+----------------------
+	tabe
+	sp
+	vsp
+	vim *.php
+	ne
+	prev
+	wne
+	wprev
+
+spell check
+-----------
+	set spell
+	set spelllang
+	spl files
+
+bad ascii chars
+---------------
+	xxd
+	:ascii
+
+macros
+------
+	qw
+	q
+	@
+	@@
+
+more help
+---------
+	:help
+	<esc>K (manual)
+
+plugins
+-------
+	NERDTree
+	Syntastic
+	Matrix
+	et al
